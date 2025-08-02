@@ -1,0 +1,75 @@
+.imagen-redonda{
+    border-radius: 150px; 
+    width: 300px;
+    height: auto; 
+    display: block;
+    margin: 20px auto; 
+    border: 2px solid #ddd; 
+}
+
+.frase-personal{
+    font-weight: bold;
+}
+
+.redes {
+    margin-top: 200px;
+    width: 300px;
+    height: auto; 
+    margin: 30px auto; 
+    text-align: center;
+}
+
+.img-redes {
+    width: 100px;
+    height: 60px; 
+    vertical-align: middle; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.info-personal {
+  display: flex;
+  justify-content: space-around;
+  gap: 90px;
+  max-width: 600px;
+  margin: 30px auto;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.lista {
+  flex: 2 2 40%;
+  padding: 30px 25px;
+  border-radius: 90px;
+}
+
+.lista h5 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.lista ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.lista li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.correo {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.correo a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.correo a:hover {
+  text-decoration: underline;
+}

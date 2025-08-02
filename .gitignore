@@ -1,0 +1,4 @@
+#ingorar la carpeta .git
+.git
+#ignorar el txt de la tarea
+*.txt
